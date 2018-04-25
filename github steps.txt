@@ -1,0 +1,43 @@
+#GitHub cheat sheet
+
+
+### FROM github
+
+### create a new repository on the command line
+
+echo "# node-and-mysql" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/patricktouchette/node-and-mysql.git
+git push -u origin master
+
+### push an existing repository from the command line
+
+git remote add origin https://github.com/patricktouchette/node-and-mysql.git
+git push -u origin master
+
+
+
+
+### initial repo setup
+Create a github repo and delete readme files, etc.
+
+git init
+git remote add origin https://github.com/patricktouchette/mysql-course.git
+git pull origin master
+
+git add .
+git commit -m "First Commit"
+git push origin master
+
+### TO commit changes
+
+git status
+git add *
+git commit -m "update"
+git push origin master
+
+
+### To change origin
+git remote set-url origin https://github.com/patricktouchette/mysql-course.git
